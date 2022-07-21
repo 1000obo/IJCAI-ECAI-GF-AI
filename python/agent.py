@@ -18,7 +18,7 @@ class Agent:
 	def __init__(self, name, env):
 		self.name = name
 		self.env = env
-		self.currentAction = 0
+		self.currentAction = -1 #NO ACTION
 	
 	#TODO: messages between agents? 
 

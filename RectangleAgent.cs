@@ -140,8 +140,14 @@ namespace GeometryFriendsAgents
                     rectanglePython = rectanglePython.Replace(@"""", @"\""");
 
                     string currAction = python.FilePython(rectanglePython);
-                    currentAction = possibleMoves[Int32.Parse(currAction)];
-
+                    if (Int32.Parse(currAction) == -1)
+                    {
+                        currentAction = Moves.NO_ACTION;
+                    }
+                    else
+                    {
+                        currentAction = possibleMoves[Int32.Parse(currAction)];
+                    }
                     lastMoveTime = lastMoveTime + 1;
                     //send a message to the circle agent telling what action it chose
                     messages.Add(new AgentMessage("Going to :" + currentAction));
