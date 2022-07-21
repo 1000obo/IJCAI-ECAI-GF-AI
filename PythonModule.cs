@@ -29,8 +29,8 @@ namespace GeometryFriendsAgents
             p.WaitForExit();
 
             //to see logs from python
-            Console.WriteLine(output); 
-            Console.ReadLine();
+            //Console.WriteLine(output); 
+            //Console.ReadLine();
 
             String result = output;
             if (output.Length >= 4)
