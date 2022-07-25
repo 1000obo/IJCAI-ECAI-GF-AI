@@ -13,5 +13,6 @@ The goal of the competition is to build AI agents for a 2 player collaborative p
   * b. Open folder <i>IJCAI-ECAI-GF-AI\GeometryFriendsGame\Release</i>
   * c. Run <i>GeometryFriends.exe</i>
   * d. Play Geometry Friends - Single Player, Multiplayer or Only Agents (Warning: change security properties of agents in the <i>Agents</i> folder for them to run)
+
 If you want to play with controllers, you just need to connect them to your computer. In this repository, you can find a set of public levels of 2019 and 2022 competitions.
 
