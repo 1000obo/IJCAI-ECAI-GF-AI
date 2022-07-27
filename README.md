@@ -19,6 +19,18 @@ If you want to play with controllers, you just need to connect them to your comp
 ## How to create agents for the competition:
   * Open the solution in Visual Studio
   * Add <i>GeometryFriends.exe</i> (in the <i>IJCAI-ECAI-GF-AI\GeometryFriendsGame\Release</i> folder) as a start-up project
-  * Change files in the <i>IJCAI-ECAI-GF-AI\python</i> folder: this solution shows a Python version of the <i>Random Agents</i> (Circle and Rectangle) for the competition, which works locally. However, the original C# version of the agents can be found in the competition submission website (https://geometryfriends.gaips.inesc-id.pt/).
-  
+  * Change files in the <i>IJCAI-ECAI-GF-AI\python</i> folder: this solution shows a Python version of <i>Random Agents</i> (Circle and Rectangle) for the competition, which works locally. However, the original C# version of the agents can be found in the competition submission website (https://geometryfriends.gaips.inesc-id.pt/). We are currently working on improving the former version to allow future participants to submit their agents in Python.
+
+## Batch Simulator
+
+You can run several simulations of the agents by running the game in the command line using a specific flag <i> GeometryFriendsGame.exe –batch-simulator </i>. It’s useful to train or test your agents, and you can easily select the level and agent you want to test, how many simulations,etc. It will return a file with the simulation results (time, collectibles caught, …).
+
+<p align="center">
+  <img src="media/batchSimulator.png" width="500" title="Geometry Friends batch simulator" alt="Batch simulator of the Geometry Friends Game">
+</p>
+
+## Contact us!
+If you have any questions about this, contact us through this email:
+gfcompetition@gaips.inesc-id.pt
+
   
